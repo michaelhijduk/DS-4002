@@ -102,7 +102,7 @@ export LASTFM_API_KEY="your_lastfm_api_key"
 - Separate the data into two lists (list1 = [songOneLyrics, songTwoLyrics, ...], list2 = [songOneGenre, songTwoGenre, ...]) so that each song's lyrics in list1 matches its genre in list2
 - Prep the Tf-idf vectorizer instance by setting parameters (e.g., lowercase=True, stop_words='english', ngram_range=(1, 2), max_features=5000)
 
-#### Step 3: Training and Testing
+#### Step 3: Feature extraction & Training & Testing
 - Split the dataset into an 80-20 split (80% for training and 20% for testing and make sure that the proportion of the genres in the training and test groups is roughly the same)
 - Build data pipeline (vectorizer (Tf-idf) + classifier (logisticRegression))
 - Using the pipeline, cross-validate (5-folds) on the training set
@@ -111,7 +111,7 @@ export LASTFM_API_KEY="your_lastfm_api_key"
 
 #### Step 4: Evaluate performance
 - Print out the classification report of the model
-- Construct confusion matrix to help visualize predicted labels vs true labels
+- Construct a confusion matrix to help visualize predicted labels vs true labels
 - Print out some lyrics along with predicted labels and true labels
 - Print out what words were quintessential for the model to predict a specific genre
 - Look at the probabilities the trained model had for each genre for a specific song
