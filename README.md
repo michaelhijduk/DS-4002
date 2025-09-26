@@ -2,19 +2,18 @@
 
 ## Data Devils: Michael Hijduk (leader), Laura Espuna, Anthony Jiang
 
-### Details
+### Software & Platform
 
-#### Software & Platform
+#### Platform Used
+- Development was done primarily on **macOS (Sonoma 14.0)**.
+- It should also run on **Windows 10/11** as long as **Python 3.11** and the required packages are installed.
 
-##### Platform Used
-- This project was done primarily on MAC
-
-##### Software Used
+#### Software Used
 - **Programming Language:** Python 3.11  
 - **Version Control:** Git & GitHub  
 - **IDE (recommended):** VS Code or Jupyter Notebook  
 
-### Required Packages
+#### Required Packages
 The following Python packages are required to run the project:  
 - `lyricsgenius` (for retrieving lyrics data via the Genius API)  
 - `requests` (for making HTTP requests to the Last.fm API)    
@@ -30,7 +29,7 @@ pip install lyricsgenius requests pandas numpy matplotlib wordcloud scikit-learn
 
 ```
 
-#### Map of Repository
+### Map of Repository
 ```
 .
 ├── DATA
@@ -72,5 +71,5 @@ pip install lyricsgenius requests pandas numpy matplotlib wordcloud scikit-learn
 6 directories, 31 files
 
 ```
-#### Instructions for Reproduction
+### Instructions for Reproduction
 
