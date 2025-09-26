@@ -48,8 +48,8 @@ contexts may require additional permissions from copyright holders.
 | lyrics     | The words/context of the song | "Now he's thinkin' 'bout me every night, oh<br>Is it that sweet? I guess so<br>Say you can't sleep, baby, I know<br>That's that me espresso<br>Move it up, down, left, right, oh<br>Switch it up like Nintendo<br>Say you can't sleep, baby, I know<br>That's that me espresso..." |
 
 ## 6. Explanatory Plots
-- **Plot 1:** Distribution of `value` by `category`  
-  ![Value Distribution](plots/value_distribution.png)
+- **Plot 1:** Distribution of `songs` by `genre`  
+  ![Song Distribution](/OUTPUT/Number_of_songs_per_genre.png)
 - **Plot 2:** Time series of `value`  
   ![Time Series](plots/value_timeseries.png)
 
