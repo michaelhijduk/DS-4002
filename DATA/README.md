@@ -1,4 +1,4 @@
-# Project Data Metadata
+# Project Metadata
 
 ## 1. Data Summary
 This folder contains all datasets used and generated in this project:
