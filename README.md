@@ -41,8 +41,7 @@
 ├── README.md
 ├── REPORTS
 │   └── MI1-Project1_Team7.pdf
-├── project1
-└── scripts
+└── SCRIPTS
     ├── data_cleaning.ipynb
     └── data_collection.ipynb
 
