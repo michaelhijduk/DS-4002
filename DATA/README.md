@@ -50,6 +50,6 @@ contexts may require additional permissions from copyright holders.
 ## 6. Explanatory Plots
 - **Plot 1:** Distribution of `songs` by `genre`  
   ![Song Distribution](/OUTPUT/Number_of_songs_per_genre.png)
-- **Plot 2:** Time series of `value`  
-  ![Time Series](plots/value_timeseries.png)
+- **Plot 2:** Average `words` per `genre`  
+  ![Average Words per song per genre](/OUTPUT/average_words_per_genre.png)
 
