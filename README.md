@@ -6,6 +6,30 @@
 
 #### Software & Platform
 
+##### Platform Used
+- This project was done primarily on MAC
+
+##### Software Used
+- **Programming Language:** Python 3.11  
+- **Version Control:** Git & GitHub  
+- **IDE (recommended):** VS Code or Jupyter Notebook  
+
+### Required Packages
+The following Python packages are required to run the project:  
+- `lyricsgenius` (for retrieving lyrics data via the Genius API)  
+- `requests` (for making HTTP requests to the Last.fm API)    
+- `pandas` (for dataset manipulation and storage)  
+- `numpy` (for numerical computations)    
+- `matplotlib` (for visualization)  
+- `wordcloud` (for generating word clouds)  
+- `scikit-learn` (for TF-IDF feature extraction, model training, and evaluation)
+
+- To install, run the following code:
+```
+pip install lyricsgenius requests pandas numpy matplotlib wordcloud scikit-learn
+
+```
+
 #### Map of Repository
 ```
 .
