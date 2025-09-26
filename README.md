@@ -29,6 +29,16 @@ pip install lyricsgenius requests pandas numpy matplotlib wordcloud scikit-learn
 
 ```
 
+#### External APIs
+- This project uses two APIs to gather music data:
+  - Genius API --> Provides song lyrics
+  - Last.fm API --> Provides genre-tagged top tracks.
+- Both require API keys to be stored as environment variables:
+``` export GENIUS_API_KEY="your_genius_api_key"
+export LASTFM_API_KEY="your_lastfm_api_key"
+```
+
+
 ### Map of Repository
 ```
 .
