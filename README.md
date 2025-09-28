@@ -74,12 +74,14 @@ export LASTFM_API_KEY="your_lastfm_api_key"
 │   └── word_cloud_rock.png
 ├── README.md
 ├── REPORTS
+│   ├── DS4002-MI4.pdf
+│   ├── M2 - Project 1_Team7.pdf
 │   └── MI1-Project1_Team7.pdf
 └── SCRIPTS
     ├── data_cleaning.ipynb
     └── data_collection.ipynb
 
-6 directories, 31 files
+5 directories, 33 files
 
 ```
 ### Instructions for Reproduction
